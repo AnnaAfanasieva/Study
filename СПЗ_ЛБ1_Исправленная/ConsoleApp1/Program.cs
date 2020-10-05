@@ -20,10 +20,6 @@ namespace ConsoleApp1
         public int pprice = 0, x;
         public string name = "Coffee_machine224";
 
-    }
-
-    class Program
-    {
         static void State(Data data) //вывод состояния ингридиентов кофемашины
         {
             data.cp = data.coffee * 100 / data.maxcoffee;
